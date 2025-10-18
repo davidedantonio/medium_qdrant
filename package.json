@@ -1,0 +1,16 @@
+{
+  "name": "qdrant",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Esempi pratici con Qdrant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davide D'Antonio <davide.dantonio1984@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.15.1",
+    "ollama": "^0.6.0"
+  }
+}
