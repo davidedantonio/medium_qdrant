@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker run --name corso_qdrant -p 6333:6333 -p 6334:6334 \
+docker run --name qdrant_database -p 6333:6333 -p 6334:6334 \
     -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
     qdrant/qdrant
